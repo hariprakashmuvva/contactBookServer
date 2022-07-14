@@ -11,6 +11,7 @@ const db = mysql.createPool({
     database:"curd_contact"
 })
 
+
 app.use(cors())
 app.use(express.json())
 app.use(bodyParser.urlencoded({extended:true}))
